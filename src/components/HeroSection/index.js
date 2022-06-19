@@ -24,7 +24,7 @@ const HeroSection = () => {
             .pauseFor(1000)
             .deleteAll()
             .typeString("Welcome to my site.") 
-            .pauseFor(300000)
+            .pauseFor(800000)
             .deleteAll()
             .typeString("You're still here?")
             .start();
@@ -41,7 +41,7 @@ const HeroSection = () => {
             </HeroP>
             <HeroBtnWrapper>
             <Button onClick={() => window.location.href = 'mailto:rbriggs@ucsb.edu'}>
-              /email me
+              /email-me
           </Button>
             </HeroBtnWrapper>
 

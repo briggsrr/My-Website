@@ -64,6 +64,7 @@ export const HeroP = styled.p`
     margin-top: 5px;
     color: #8892af;
     font-size: 22px;
+    font-weight: 20;
     text-align: left;
     max-width: 600px;
     
