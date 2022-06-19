@@ -1,3 +1,4 @@
+import Link from 'react-scroll/modules/components/Link';
 import styled from 'styled-components'
 
 
@@ -6,7 +7,7 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 862px;
+    height: 950px;
     position: relative;
     z-index: 1;
 
@@ -39,9 +40,13 @@ export const HeroContent = styled.div`
 `;
 
 export const HeroH1 = styled.h1`
-    color: #64ffda;
-    font-size: 55px;
-    text-align: center;
+    color: #cbd6f6;
+    font-size: 50px;
+  
+    text-align: left;
+    display:flex;
+    justify-content: left;
+    align-items:left;
 
     @media screen and (max-width: 833px;) {
         font-size: 40px;
@@ -56,10 +61,10 @@ export const HeroH1 = styled.h1`
 `;
 
 export const HeroP = styled.p`
-    margin-top: 20px;
+    margin-top: 5px;
     color: #8892af;
-    font-size: 25px;
-    text-align: center;
+    font-size: 22px;
+    text-align: left;
     max-width: 600px;
     
 
@@ -72,3 +77,31 @@ export const HeroP = styled.p`
         font-size: 18px;
     }
 `;
+
+export const HeroBtnWrapper = styled.div`
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+`
+
+export const Button = styled(Link)`
+    color: #64ffda;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    padding-right: 515px;
+    
+
+    &:hover {
+        transition: all 0.2 ease-in-out;
+        color: #8892af;
+    
+    }
+`
+
+

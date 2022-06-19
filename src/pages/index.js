@@ -17,7 +17,7 @@ const Home = () => {
     <Navbar toggle={toggle} />
     <HeroSection/>
     </>
-  )
-}
+  );
+};
 
 export default Home
