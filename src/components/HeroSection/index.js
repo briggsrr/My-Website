@@ -1,4 +1,4 @@
-import Typewriter from "typewriter-effect";
+import ReactTypingEffect from 'react-typing-effect';
 import {
     HeroContainer,
     HeroBg,
@@ -17,20 +17,27 @@ const HeroSection = () => {
         </HeroBg>
         <HeroContent>
             <HeroH1>
-            <Typewriter onInit={(typewriter)=> {
-            typewriter
-   
-            .typeString("Hey, it's me Bobby.")
-            .pauseFor(1000)
-            .deleteAll()
-            .typeString("Welcome to my site.") 
-            .pauseFor(800000)
-            .deleteAll()
-            .typeString("You're still here?")
-            .start();
-            
-            }}
-            />
+            <ReactTypingEffect
+        text={["Hi, Bobby here."]}
+        cursorRenderer={cursor => <h1>{cursor}</h1>}
+        speed = {200}
+        eraseDelay={100000}
+        displayTextRenderer={(text, i) => {
+          return (
+            <h1>
+              {text.split('').map((char, i) => {
+                const key = `${i}`;
+                return (
+                  <span
+                    key={key}
+                    style={ (i < 9 && i > 3)? { color:  "#64ffda"} : { color: "#cbd6f6"}}
+                  >{char}</span>
+                );
+              })}
+            </h1>
+          );
+        }}        
+      />
             </HeroH1>
             <HeroP>
             I'm a hardworking student with a zest 

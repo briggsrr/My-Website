@@ -41,7 +41,7 @@ export const HeroContent = styled.div`
 
 export const HeroH1 = styled.h1`
     color: #cbd6f6;
-    font-size: 50px;
+    font-size: 31px;
     text-align: left;
     display:flex;
     justify-content: left;
