@@ -60,6 +60,12 @@ export const HeroH1 = styled.h1`
         transition: 0.8s all ease;
     }
 
+    @media screen and (max-width: 400px) {
+        max-width: 350px;
+        font-size: 17px;
+        transition: 0.8s all ease;
+    }
+
 
 `;
 
@@ -81,6 +87,12 @@ export const HeroP = styled.p`
     @media screen and (max-width: 575px) {
         max-width: 400px;
         font-size: 15px;
+        transition: 0.8s all ease;
+    }
+
+    @media screen and (max-width: 400px) {
+        max-width: 300px;
+        font-size: 12px;
         transition: 0.8s all ease;
     }
 
@@ -123,6 +135,13 @@ export const Button = styled(Link)`
         max-width: 450px;
         font-size: 12px;
         padding-right: 340px;
+        transition: 0.8s all ease;
+    }
+
+    @media screen and (max-width: 400px) {
+        max-width: 350px;
+        font-size: 10px;
+        padding-right: 145px;
         transition: 0.8s all ease;
     }
 `;
