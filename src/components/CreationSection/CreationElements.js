@@ -16,6 +16,10 @@ export const CreationContainer = styled.div`
         height: 1730px
     }
 
+    @media screen and (max-width: 400px) {
+        height: 2100px;
+    }
+
 
 
 `;

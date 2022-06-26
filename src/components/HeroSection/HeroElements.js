@@ -52,13 +52,13 @@ export const HeroH1 = styled.h1`
     align-items:left;
     transition: 0.8s all ease;
 
-    @media screen and (max-width: 675px) {
+    @media screen and (max-width: 833px) {
         max-width: 1000px;
         font-size: 26px;
         transition: 0.8s all ease;
     }
 
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 675px) {
         max-width: 450px;
         font-size: 21px;
         transition: 0.8s all ease;
@@ -66,7 +66,7 @@ export const HeroH1 = styled.h1`
 
     @media screen and (max-width: 400px) {
         max-width: 350px;
-        font-size: 16px;
+        font-size: 15px;
         transition: 0.8s all ease;
     }
 
@@ -82,13 +82,13 @@ export const HeroP = styled.p`
     max-width: 600px;
     transition: 0.8s all ease;
 
-    @media screen and (max-width: 675px) {
+    @media screen and (max-width:  833px) {
         max-width: 500px;
         font-size: 20px;
         transition: 0.8s all ease;
     }
 
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 675px) {
         max-width: 400px;
         font-size: 15px;
         transition: 0.8s all ease;
@@ -128,14 +128,14 @@ export const Button = styled(Link)`
     
     }
 
-    @media screen and (max-width: 675px) {
+    @media screen and (max-width: 833px) {
         max-width: 900px;
         font-size: 13px;
         padding-right: 430px;
         transition: 0.8s all ease;
     }
 
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: 675px) {
         max-width: 450px;
         font-size: 12px;
         padding-right: 340px;
@@ -145,7 +145,7 @@ export const Button = styled(Link)`
     @media screen and (max-width: 400px) {
         max-width: 350px;
         font-size: 10px;
-        padding-right: 165px;
+        padding-right: 195px;
         transition: 0.8s all ease;
     }
 `;

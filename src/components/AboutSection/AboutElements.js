@@ -20,6 +20,10 @@ export const AboutWrapper = styled.div`
     // justify-content: center;
     border-top: .5px solid #64ffda;
 
+    @media screen and (max-width: 400px) {
+        height: 950px;
+    }
+
 
 `
 export const AboutHeader = styled.h1`
@@ -70,6 +74,13 @@ export const Description = styled.p`
     font-size:18px;
     line-height:24px;
     color: #8892af;
+    transition: 0.8s all ease;
+
+
+    @media screen and (max-width: 400px) {
+        font-size: 14px;
+        transition: 0.8s all ease;
+    }
 `
 
 export const List = styled.p`
