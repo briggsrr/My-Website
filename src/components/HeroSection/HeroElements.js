@@ -145,7 +145,7 @@ export const Button = styled(Link)`
     @media screen and (max-width: 400px) {
         max-width: 350px;
         font-size: 10px;
-        padding-right: 195px;
+        padding-right: 250px;
         transition: 0.8s all ease;
     }
 `;

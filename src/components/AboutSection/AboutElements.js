@@ -21,7 +21,7 @@ export const AboutWrapper = styled.div`
     border-top: .5px solid #64ffda;
 
     @media screen and (max-width: 400px) {
-        height: 950px;
+        height: 1000px;
     }
 
 
