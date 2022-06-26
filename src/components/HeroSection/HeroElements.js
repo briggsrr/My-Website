@@ -46,6 +46,19 @@ export const HeroH1 = styled.h1`
     display:flex;
     justify-content: left;
     align-items:left;
+    transition: 0.8s all ease;
+
+    @media screen and (max-width: 675px) {
+        max-width: 1000px;
+        font-size: 26px;
+        transition: 0.8s all ease;
+    }
+
+    @media screen and (max-width: 575px) {
+        max-width: 450px;
+        font-size: 21px;
+        transition: 0.8s all ease;
+    }
 
 
 `;
@@ -57,6 +70,19 @@ export const HeroP = styled.p`
     font-weight: 20;
     text-align: left;
     max-width: 600px;
+    transition: 0.8s all ease;
+
+    @media screen and (max-width: 675px) {
+        max-width: 500px;
+        font-size: 20px;
+        transition: 0.8s all ease;
+    }
+
+    @media screen and (max-width: 575px) {
+        max-width: 400px;
+        font-size: 15px;
+        transition: 0.8s all ease;
+    }
 
     
 `;
@@ -75,7 +101,7 @@ export const Button = styled(Link)`
     outline: none;
     border: none;
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.8s ease-in-out;
     text-decoration: none;
     padding-right: 515px;
     
@@ -84,6 +110,20 @@ export const Button = styled(Link)`
         transition: all 0.2 ease-in-out;
         color: #8892af;
     
+    }
+
+    @media screen and (max-width: 675px) {
+        max-width: 900px;
+        font-size: 13px;
+        padding-right: 430px;
+        transition: 0.8s all ease;
+    }
+
+    @media screen and (max-width: 575px) {
+        max-width: 450px;
+        font-size: 12px;
+        padding-right: 340px;
+        transition: 0.8s all ease;
     }
 `;
 
