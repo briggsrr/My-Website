@@ -12,7 +12,7 @@ import {
 
 const HeroSection = () => {
   return (
-    <HeroContainer id="Home">
+    <HeroContainer id="home">
         <HeroBg>
         </HeroBg>
         <HeroContent>
@@ -36,8 +36,8 @@ const HeroSection = () => {
             I'm a hardworking student with a zest 
             for new technologies. 
             Background in testing, evaluating, designing and implementing solutions. 
-            Enthusiastic about full-stack develop, computer vision, computer security, machine learning, 
-            database systems, human-computer interaction and everything in between.
+            Enthusiastic about full-stack develop, computer vision, algorithms, machine learning, 
+            distributed systems, human-computer interaction and everything in between.
             </HeroP>
             <HeroBtnWrapper>
             <Button onClick={() => window.location.href = 'mailto:rbriggs@ucsb.edu'}>

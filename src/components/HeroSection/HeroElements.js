@@ -42,20 +42,10 @@ export const HeroContent = styled.div`
 export const HeroH1 = styled.h1`
     color: #cbd6f6;
     font-size: 50px;
-  
     text-align: left;
     display:flex;
     justify-content: left;
     align-items:left;
-
-    @media screen and (max-width: 833px;) {
-        font-size: 40px;
-
-    }
-
-    @media screen and (max-width: 480px) {
-        font-size: 32px;
-    }
 
 
 `;
@@ -67,16 +57,8 @@ export const HeroP = styled.p`
     font-weight: 20;
     text-align: left;
     max-width: 600px;
+
     
-
-    @media screen and (max-width: 833px;) {
-        font-size: 24px;
-
-    }
-
-    @media screen and (max-width: 480px) {
-        font-size: 18px;
-    }
 `;
 
 export const HeroBtnWrapper = styled.div`
@@ -85,7 +67,7 @@ export const HeroBtnWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     
-`
+`;
 
 export const Button = styled(Link)`
     color: #64ffda;
@@ -103,6 +85,6 @@ export const Button = styled(Link)`
         color: #8892af;
     
     }
-`
+`;
 
 

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 export const AboutContainer = styled.div`
     background: #0b192f;
+    padding-top: 80px;
     
 
 `
@@ -27,7 +28,7 @@ margin-bottom: 24px;
 font-size: 40px;
 //font-weight: 600;
 color: #cbd6f6;
-padding-top 50px;
+padding-top: 50px;
 
 `
 

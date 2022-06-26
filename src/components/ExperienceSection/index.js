@@ -7,7 +7,7 @@ import {
 const ExperienceSection = () => {
   return (
     <>
-    <ExperienceContainer>
+    <ExperienceContainer id ="experience">
         <ExperienceWrapper>
             <ExperienceHeader>
                 /experience 
