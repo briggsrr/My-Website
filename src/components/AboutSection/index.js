@@ -38,10 +38,9 @@ const AboutSection = () => {
                          <List>
                            C++ (fluent) <br></br>
                            Python (proficient) <br></br>
-                           Javascript proficient) <br></br>
+                           Javascript (proficient) <br></br>
                            React.js (proficient) <br></br>
                            HTML and CSS (proficient) <br></br>
-                           UNIX (proficient) <br></br> 
                          </List>
 
                             Outside of work and technology, some of my hobbies include

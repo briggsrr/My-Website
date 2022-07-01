@@ -45,7 +45,7 @@ const CreationSection = () => {
                     </ProjectH2>
                     <ProjectP>
                         A binary search tree implementated program that 
-                        recieves a file of movies and their ratings, sorts them by name then given 
+                        recieves a file of movies and their ratings, sorts them by name, then, given 
                         an inputted prefix, sorts by rating.
                     </ProjectP>
                     <ProjectP2>
