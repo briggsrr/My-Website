@@ -13,3 +13,4 @@ Notes:
 > Currently using Netlify to handle backend processes and deployment for simplicity
 > Pushing to master branch auto delploys, using branch Develop for development
 > Uses React-Components for styling and React-Scroll 
+
