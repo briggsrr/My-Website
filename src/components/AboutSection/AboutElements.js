@@ -112,14 +112,26 @@ export const List = styled.p`
 export const ImgWrap = styled.div`
     max-width: 555px;
     height: 100%;
-
+    
 `
 
 export const Img1 = styled.img`
     width: 73%;
     margin: 0px 0px 60px 55px;
     padding-right: 0;
-    border-radius: 30px;
+    //filter: contrast(200%);
+    //drop-shadow(16px 16px 16px #64ffda);
+    //filter: grayscale(50%);
+    //filter: hue-rotate(90deg);
+    //filter: invert(75%);
+    //filter: opacity(85%);
+    //filter: saturate(30%);
+    //filter: sepia(60%);
+    border-radius: 20px;
+    filter: brightness(90%);
+    border: 1px solid #64ffda; 
+    opacity: 85%;
+    
 
     
 `
@@ -127,6 +139,9 @@ export const Img2 = styled.img`
     width: 75%;
     margin: 0px 0px 60px 55px;
     padding-right: 0;
-    border-radius: 30px;
+    border-radius: 20px;
+    opacity: 95%;
+    border: 1px solid #64ffda; 
+    opacity: 85%;
        
 `

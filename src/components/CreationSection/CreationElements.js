@@ -12,8 +12,8 @@ export const CreationContainer = styled.div`
         height: 1100px
     }
 
-    @media screen and (max-width: 698px) {
-        height: 1730px
+    @media screen and (max-width: 835px) {
+        height: 1630px
     }
 
     @media screen and (max-width: 400px) {
@@ -65,7 +65,7 @@ export const ProjectWrapper = styled.div`
 
     }
 
-    @media screen and (max-width:698px) {
+    @media screen and (max-width:835px) {
         grid-template-columns: 1fr;
         padding: 0 20px;
         
@@ -85,16 +85,32 @@ export const ProjectCard = styled.div`
     align-items: center;
     justify-content: flex-start;
     border-radius: 10px;
-    max-height: 340px;
+    height: 250px;
     padding: 30px;
     width: 100%;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 
     &:hover {
         transform: scale(1.03);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
+
+    @media screen and (max-width:1000px) {
+        height: 220px;
+
+
+    }
+
+
+    @media screen and (max-width:835px) {
+        height: 190px;
+        
+
+
+    }
+
+
 
 
 `;
@@ -112,6 +128,7 @@ export const ProjImg = styled.img`
 export const ProjectH2 = styled.div`
     font-size: 1rem;
     color: #64ffda;
+    margin-bottom: 5px;
     margin-bottom: 15px;
 
 `;
@@ -120,6 +137,7 @@ export const ProjectP = styled.div`
     color: #8892af;
     font-size: .9rem;
     margin-bottom: 15px;
+    text-align: left;
 
 
 `;
