@@ -26,6 +26,7 @@ export const CreationContainer = styled.div`
 
 export const CreationWrapper = styled.div`
     display: grid;
+  
     z-index: 1;
     width: 100%;
     height: 400px;
@@ -33,7 +34,7 @@ export const CreationWrapper = styled.div`
     margin-right:auto;
     margin-left: auto;
     padding: 0 24px;
-    // justify-content: center;
+    //justify-content: center;
     border-top: .5px solid #64ffda;
 
 
@@ -75,6 +76,7 @@ export const ProjectWrapper = styled.div`
 `;
 
 export const ProjectCard = styled.div`
+    display: flex;
     background: #10213e;
     border: solid #000;
     border-width: 1px 1px;
