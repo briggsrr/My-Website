@@ -70,15 +70,20 @@ export const TextWrapper = styled.div`
 
 export const Description = styled.p`
     max-width: 440px;
-    margin-bottom: 25px;
+    margin-bottom: 4px;
     font-size:18px;
     line-height:24px;
     color: #8892af;
     transition: 0.8s all ease;
 
+    @media screen and (max-width: 750px) {
+        font-size: 14px;
+        transition: 0.8s all ease;
+    }
+
 
     @media screen and (max-width: 400px) {
-        font-size: 14px;
+        font-size: 12px;
         transition: 0.8s all ease;
     }
 `
@@ -90,6 +95,17 @@ export const List = styled.p`
     line-height:24px;
     color: #64ffda;
     padding-bottom: 15px;
+
+    @media screen and (max-width: 750px) {
+        font-size: 10px;
+        transition: 0.8s all ease;
+    }
+
+
+    @media screen and (max-width: 400px) {
+        font-size: 10px;
+        transition: 0.8s all ease;
+    }
 
 `
 

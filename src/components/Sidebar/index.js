@@ -32,8 +32,8 @@ const Sidebar = ({isOpen, toggle}) => {
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to='/click-me' onClick={toggle}>
-                    Click Me!
+                <SidebarRoute to='/database-test' onClick={toggle}>
+                    //database
                 </SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>

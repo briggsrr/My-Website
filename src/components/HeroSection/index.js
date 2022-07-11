@@ -40,7 +40,7 @@ const HeroSection = () => {
       />
             </HeroH1>
             <HeroP>
-            I'm a hardworking student with a zest 
+            I'm an undergraduate student with a zest 
             for new technologies. 
             Background in testing, evaluating, designing and implementing solutions. 
             Enthusiastic about full-stack develop, computer vision, algorithms, machine learning, 
