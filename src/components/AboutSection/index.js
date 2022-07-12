@@ -43,6 +43,7 @@ const AboutSection = () => {
                            Python (proficient) <br></br>
                            Javascript (proficient) <br></br>
                            HTML and CSS (familiar) <br></br>
+                           Solidity (familiar) <br></br>
                            MIPS (familiar) <br></br>
 
                            <br></br>
