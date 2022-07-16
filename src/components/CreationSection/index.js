@@ -68,7 +68,7 @@ const CreationSection = () => {
                      dataset projected on the first two PC components.
                     </ProjectP>
                     <ProjectP2>
-                        Python, matplotlib, sklearn
+                        Python, Matplotlib
                     </ProjectP2>
                 </ProjectCard>
                 </MyLink>

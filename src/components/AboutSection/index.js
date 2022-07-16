@@ -35,7 +35,7 @@ const AboutSection = () => {
                             If you're looking for me on a day off, I most likely can be found at the beach or gym. So far, 
                          some technologies 
                          I have been working with in all 
-                         settings are:
+                         environments are:
                          </Description>
                          <br></br>
                          <Description>Languages:</Description>

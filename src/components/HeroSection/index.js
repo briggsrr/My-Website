@@ -43,7 +43,7 @@ const HeroSection = () => {
             I'm an undergraduate student with a zest 
             for new technologies. 
             Background in testing, evaluating, designing and implementing solutions. 
-            Enthusiastic about full-stack develop, computer vision, algorithms, machine learning, 
+            Enthusiastic about full-stack development, computer vision, data structures, machine learning, 
             distributed systems, human-computer interaction and everything in between.
             </HeroP>
             <HeroBtnWrapper>
