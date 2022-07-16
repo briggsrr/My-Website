@@ -44,7 +44,7 @@ const CreationSection = () => {
                     <ProjectH2>
                         BST Movie Sorter 
                     </ProjectH2>
-                    <ProjectP>
+                    <ProjectP>g
                     A BST implemented solution that takes movies, their ratings and a prefix then 
                     prints a pre-order traversal of the created movie
                     BST as well as the highest rated movie with the inputted prefix.
