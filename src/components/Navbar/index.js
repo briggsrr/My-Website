@@ -59,8 +59,8 @@ const Navbar = ({ toggle }) => {
             </NavItem>  
           </NavMenu>
           <NavBtn>
-   
-          <NavBtnLink to="/database-test">database</NavBtnLink>
+        
+          <NavBtnLink to="/database-test">&#47;&#47;database</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
