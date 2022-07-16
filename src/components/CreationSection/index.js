@@ -45,9 +45,9 @@ const CreationSection = () => {
                         BST Movie Sorter 
                     </ProjectH2>
                     <ProjectP>
-                        A binary search tree implementated program that 
-                        recieves a file of movies and their ratings, sorts them by name, then, given 
-                        an inputted prefix, sorts by rating.
+                    A BST implemented solution that takes movies, their ratings and a prefix then 
+                    prints a pre-order traversal of the created movie
+                    BST as well as the highest rated movie with the inputted prefix.
                     </ProjectP>
                     <ProjectP2>
                         C++, Makefile
@@ -60,7 +60,7 @@ const CreationSection = () => {
                 <ProjectCard>
                 <ProjImg src={require('../../images/GitHub-Mark.png')}/>
                     <ProjectH2>
-                        PCA-Reduction
+                        PCA Reduction
                     </ProjectH2>
                     <ProjectP>
                     A program that takes a dataset file and produces a screeplot 
