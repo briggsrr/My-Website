@@ -109,6 +109,12 @@ export const ProjectCard = styled.div`
 
 
     }
+    @media screen and (max-width:400px) {
+        height: 300px;
+        
+
+
+    }
 
 
 
