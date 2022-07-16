@@ -20,8 +20,12 @@ export const AboutWrapper = styled.div`
     // justify-content: center;
     border-top: .5px solid #64ffda;
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 600px) {
         height: 1000px;
+    }
+
+    @media screen and (max-width: 400px) {
+        height: 1200px;
     }
 
 

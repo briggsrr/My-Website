@@ -37,8 +37,9 @@ const AboutSection = () => {
                          I have been working with in all 
                          settings are:
                          </Description>
-                         <List>
+                         <br></br>
                          <Description>Languages:</Description>
+                         <List>
                            C++ (fluent) <br></br>
                            Python (proficient) <br></br>
                            Javascript (proficient) <br></br>
@@ -47,15 +48,17 @@ const AboutSection = () => {
                            MIPS (familiar) <br></br>
 
                            <br></br>
-                           <Description>Notable libraries:</Description>
-                           React.js (proficient) <br></br>
-                           Node.js (familiar) <br></br>
+                        </List>
                         
-                           <br></br>
-                           <Description>Frameworks:</Description>
-                           gRPC <br></br> 
+                           <Description>Noteable libraries, frameworks, APIs:</Description>
+                        <List>
+                           React.js <br></br>
+                           Node.js <br></br>
+
+                           gRPC (...Protobufs) <br></br> 
                            Juce <br></br> 
-                           googletest <br></br> 
+                           Googletest <br></br> 
+                           Brownie <br></br> 
                     
                          </List>
                         
