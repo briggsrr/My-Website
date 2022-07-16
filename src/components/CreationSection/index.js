@@ -54,21 +54,21 @@ const CreationSection = () => {
                     </ProjectP2>
                 </ProjectCard>
                 </MyLink>
-                <MyLink href="https://github.com/briggsr3/Python-Minecraft" target="_blank" rel="noopener noreferrer">
+
+                
+                <MyLink href="https://github.com/briggsrr/PCA-Reduction" target="_blank" rel="noopener noreferrer">
                 <ProjectCard>
                 <ProjImg src={require('../../images/GitHub-Mark.png')}/>
                     <ProjectH2>
-                        NULL
+                        PCA-Reduction
                     </ProjectH2>
                     <ProjectP>
-                        example example example example example  
-                        example example example example example 
-                        example example example example example 
-                        example example example example example 
-                        example example example example 
+                    A program that takes a dataset file and produces a screeplot 
+                    for analyzing the PC components as well as the
+                     dataset projected on the first two PC components.
                     </ProjectP>
                     <ProjectP2>
-                        One, Two, Three
+                        Python, matplotlib, sklearn
                     </ProjectP2>
                 </ProjectCard>
                 </MyLink>
