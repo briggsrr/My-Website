@@ -13,7 +13,8 @@ import {
     RoleTasks,
     ExperienceRow,
     ExperienceRow2,
-    Colored
+    Colored,
+    Point
 
 } from './ExperienceElements'
 const ExperienceSection = () => {
@@ -74,12 +75,18 @@ const ExperienceSection = () => {
                 </RowTop>
                 <RowBottom> 
                   <RoleTasks>
+                  <Point>
                   <Colored>&#8226; </Colored> 
                   Designed a custom website from scratch using Wordpress.
+                  </Point>
+                  <Point>
                     <br></br><Colored>&#8226; </Colored>  
                   Crafted custom plugins for widget implementation including a morgage and maintenence fee calculator.
+                  </Point>
+                  <Point>
                     <br></br><Colored>&#8226; </Colored>
                   Created images, redirect links, and a live chatboxfor use in marketing and email campaigns.
+                  </Point>
                   </RoleTasks>
                 </RowBottom>
                </ExperienceRow2>
@@ -101,12 +108,20 @@ const ExperienceSection = () => {
                 </RowTop>
                 <RowBottom> 
                   <RoleTasks>
+
+                  <Point>
                   <Colored>&#8226; </Colored> 
                    Translated clientele website content from Chinese to English. 
+                  </Point>
+                   <Point>
                     <br></br><Colored>&#8226; </Colored>  
                     Ensured project tasks were on schedule.
+                    </Point>
+                    <Point>
                     <br></br><Colored>&#8226; </Colored>
                     Shadowed software engineers professionals to learn industry approaches.
+                    </Point>
+
                   </RoleTasks>
                 </RowBottom>
                </ExperienceRow2>

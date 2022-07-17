@@ -6,13 +6,17 @@ export const ExperienceContainer = styled.div`
     padding-top: 80px;
     height: 1000px;
 
-    @media screen and (max-width:550px) {
+    @media screen and (max-width:650px) {
         height: 1100px;
 
     }
 
-    @media screen and (max-width:400px) {
+    @media screen and (max-width:550px) {
         height: 1200px;
+    }
+
+    @media screen and (max-width:400px) {
+        height: 1300px;
 
     }
     
@@ -84,6 +88,7 @@ export const RoleTime= styled.p`
 
 export const RoleTasks= styled.p`
     color: #8892af;
+   
 
 
 
@@ -138,7 +143,7 @@ export const ExperienceRow2 = styled.div`
             "b b b"
             "b b b";
            
-    height: 210px;
+    height: 230px;
     border: 1px solid #64ffda;
     border-radius: 10px;
     background: #10213e;
@@ -147,17 +152,17 @@ export const ExperienceRow2 = styled.div`
 
 
     @media screen and (max-width:650px) {
-        height: 250px;
+        height: 270px;
 
     }
 
     @media screen and (max-width:550px) {
-        height: 300px;
+        height: 320px;
 
     }
 
     @media screen and (max-width:400px) {
-        height: 350px;
+        height: 370px;
 
     }
     
@@ -172,3 +177,11 @@ export const Colored = styled.div`
 
 `;
 
+
+export const Point= styled.div`
+    margin-bottom: -10px;
+     
+    
+
+
+`;
