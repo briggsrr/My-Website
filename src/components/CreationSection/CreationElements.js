@@ -46,6 +46,7 @@ export const CreationHeader = styled.h1`
         //font-weight: 600;
         color: #cbd6f6;
         padding-top: 50px;
+        
 
 `;
 
