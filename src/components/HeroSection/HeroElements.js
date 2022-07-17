@@ -150,4 +150,10 @@ export const Button = styled(Link)`
     }
 `;
 
+export const TypeWrap = styled.div`
+    font-weight: 20;
+    
+`;
+
+
 

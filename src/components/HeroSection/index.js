@@ -6,7 +6,8 @@ import {
     HeroP,
     HeroH1,
     HeroBtnWrapper,
-    Button
+    Button,
+
 
 } from './HeroElements'
 
@@ -19,6 +20,7 @@ const HeroSection = () => {
             <HeroH1>
             <ReactTypingEffect
         text={["Hi, Bobby here."]}
+      
         cursorRenderer={cursor => <h1>{cursor}</h1>}
         speed = {200}
         eraseDelay={100000}
@@ -28,9 +30,10 @@ const HeroSection = () => {
               {text.split('').map((char, i) => {
                 const key = `${i}`;
                 return (
-                  <span
+                  <span 
                     key={key}
                     style={ (i < 9 && i > 3)? { color:  "#64ffda"} : { color: "#cbd6f6"}}
+                    
                   >{char}</span>
                 );
               })}

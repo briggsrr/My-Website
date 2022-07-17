@@ -39,6 +39,7 @@ font-size: 40px;
 //font-weight: 600;
 color: #cbd6f6;
 padding-top: 50px;
+font-weight: 20;
 
 
 `;

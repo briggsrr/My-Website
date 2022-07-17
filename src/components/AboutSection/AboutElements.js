@@ -41,6 +41,7 @@ font-size: 40px;
 //font-weight: 600;
 color: #cbd6f6;
 padding-top: 50px;
+font-weight: 20;
 
 `
 
@@ -61,7 +62,7 @@ export const AboutRow = styled.div`
 
 export const Column1 = styled.div`
     display: flex;
-    margin-top: 15px;
+    margin-top: 35px;
     margin-bottom: 15px;
     grid-area: a;
     font-size: 22px;
