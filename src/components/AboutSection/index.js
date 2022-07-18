@@ -61,6 +61,15 @@ const AboutSection = () => {
                            Brownie <br></br> 
                     
                          </List>
+
+                        <Description>Operating systems:</Description> 
+                          
+                           <List>
+                            Ubuntu <br></br>
+                            Unix <br></br>
+                            Windows 10
+                           </List>
+
                         
                     </TextWrapper>
                 </Column1>

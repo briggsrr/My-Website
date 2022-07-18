@@ -11,7 +11,7 @@ export const AboutContainer = styled.div`
 export const AboutWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 1000px;
+    height: 1100px;
     width: 100%;
     max-width: 1000px;
     margin-right:auto;
@@ -21,12 +21,12 @@ export const AboutWrapper = styled.div`
     border-top: .5px solid #64ffda;
 
     @media screen and (max-width: 1000px) {
-        height: 1800px;
+        height: 1900px;
         
     }
 
     @media screen and (max-width: 600px) {
-        height: 1700px;
+        height: 1800px;
         
     }
 
