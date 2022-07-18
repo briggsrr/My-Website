@@ -2,7 +2,7 @@ import React from 'react'
 
 const DatabaseTest = () => {
   return (
-    <div>Database test page: Currently not complete</div>
+    <div>Database test page: Currently building in progress...</div>
   )
 }
 
