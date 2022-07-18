@@ -85,7 +85,7 @@ const ExperienceSection = () => {
                   </Point>
                   <Point>
                     <br></br><Colored>&#8226; </Colored>
-                  Created images, redirect links, and a live chatboxfor use in marketing and email campaigns.
+                  Integrated data storage and a live chatbox for use in marketing and email campaigns.
                   </Point>
                   </RoleTasks>
                 </RowBottom>
