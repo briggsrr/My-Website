@@ -165,6 +165,11 @@ export const ExperienceRow2 = styled.div`
         height: 370px;
 
     }
+    /* &:hover {
+        transform: scale(1.03);
+        transition: all 0.2s ease-in-out;
+        
+    } */
     
 
 `;

@@ -46,8 +46,8 @@ const CreationSection = () => {
                     </ProjectH2>
                     <ProjectP>
                     A BST implemented solution that takes movies, ratings and a prefix then 
-                    prints a pre-order traversal of the created movie
-                    BST as well as the highest rated movie with the inputted prefix.
+                    prints a pre-order traversal of the movie nodes as well as the highest rated prefix
+                     movie.
                     </ProjectP>
                     <ProjectP2>
                         C++, Makefile

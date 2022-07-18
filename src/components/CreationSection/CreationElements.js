@@ -78,7 +78,7 @@ export const ProjectWrapper = styled.div`
 `;
 
 export const ProjectCard = styled.div`
-    display: flex;
+    display: grid;
     background: #10213e;
     border: solid #000;
     border-width: 1px 1px;
@@ -117,6 +117,8 @@ export const ProjectCard = styled.div`
 
 
     }
+    grid-template-areas: "a " "b" "c";
+    //grid-template-rows: 50px 134px 50px;
 
 
 
@@ -138,22 +140,38 @@ export const ProjectH2 = styled.div`
     color: #64ffda;
     margin-bottom: 5px;
     margin-bottom: 15px;
+    width: 100%;
+    grid-area: a;
 
 `;
 
 export const ProjectP = styled.div`
+  
+    width: 100%;
     color: #8892af;
     font-size: .9rem;
     margin-bottom: 15px;
     text-align: left;
+    //max-height: 160px;
+    grid-area: b;
+
+    
 
 
 `;
 
 export const ProjectP2 = styled.div`
     font-size: .7rem;
+    display: fixed;
     margin-bottom: 10px;
     color: #cbd6f6;
+    justify-content: center;
+    align-items: center;
+    //position: flex;
+    grid-area: c;
+    
+    
+    
 
 `;
 

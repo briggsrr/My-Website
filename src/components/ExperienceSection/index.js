@@ -77,11 +77,11 @@ const ExperienceSection = () => {
                   <RoleTasks>
                   <Point>
                   <Colored>&#8226; </Colored> 
-                  Designed a custom website from scratch using Wordpress.
+                  Designed a custom website from scratch using Wordpress, HTML, and CSS.
                   </Point>
                   <Point>
                     <br></br><Colored>&#8226; </Colored>  
-                  Crafted custom plugins for widget implementation including a morgage and maintenence fee calculator.
+                  Crafted custom plugins for client including a morgage and maintenence fee calculator.
                   </Point>
                   <Point>
                     <br></br><Colored>&#8226; </Colored>
