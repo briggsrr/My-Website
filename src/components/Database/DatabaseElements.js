@@ -2,14 +2,9 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-    min-height: 692px;
-    position:fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
+    height: 980px;
+    position:grid;
     z-index: 0;
-    overflow: hidden;
     background: #0b192f;
     
 `
@@ -40,17 +35,36 @@ export const HomeLink = styled(Link)`
 export const NavbarContainer = styled.div`
 
 
+    display: grid;
+    z-index: 1;
+    height: 300px;
+    width: 100%;
+    max-width: 1000px;
+    margin-right:auto;
+    margin-left: auto;
+    padding: 0 24px;
+    
+`;
+
+export const ClickerContainer = styled.div`
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
-    z-index: 1;
-    /* width: 100%; */
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+    grid-area: b;
     
-    /* margin: auto;
-    width: 73%;
-     border-bottom: 1px solid #64ffda; 
 
-    max-width: 1100px; */
+
+
+`;
+
+export const DataButton = styled.button`
     
+    
+
+
+
 `;

@@ -1,7 +1,12 @@
 import React from 'react'
 import { Container,
     HomeLink,
-    NavbarContainer} from './DatabaseElements'
+    NavbarContainer,
+    ClickerContainer,
+    DataButton
+      
+  
+  } from './DatabaseElements'
 
 const DatabaseNavbar = () => {
   return (
@@ -9,11 +14,19 @@ const DatabaseNavbar = () => {
         <Container>
           <NavbarContainer>
             <HomeLink to="/">&#47;&#47;home </HomeLink>
-          
+
+              <ClickerContainer>
+ 
+                  <DataButton onClick={() => this.setData()}> Set Data </DataButton>
+                 
+                  <DataButton onClick={() => this.setData()}> Get Data </DataButton>
+                  
+                  
+
+              </ClickerContainer>
+
+      
           </NavbarContainer>
-           
-
-
         </Container>
     
     
