@@ -32,7 +32,7 @@ const Sidebar = ({isOpen, toggle}) => {
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to='/database-test' onClick={toggle}>
+                <SidebarRoute to='/database' onClick={toggle}>
                 &#47;&#47;database
                 </SidebarRoute>
             </SideBtnWrap>

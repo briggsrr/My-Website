@@ -1,9 +1,10 @@
 import React from 'react'
+import DatabaseNavbar from '../components/Database'
 
-const DatabaseTest = () => {
+const Databasetest = () => {
   return (
-    <div>Database test page: Currently building in progress...</div>
+    <div><DatabaseNavbar/></div>
   )
 }
 
-export default DatabaseTest
+export default Databasetest

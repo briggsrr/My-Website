@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages';
-import DatabaseTest from './pages/database-test';
+import Databasetest from './pages/database-test';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Home/>} exact/>
-        <Route path='/database-test' element={<DatabaseTest/>} exact/>
+        <Route path='/database' element={<Databasetest/>} exact/>
       </Routes>
     </Router>
   );
