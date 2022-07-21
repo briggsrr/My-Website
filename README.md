@@ -7,9 +7,7 @@ Some file/folder descriptions:
 
  >  - src/pages integrates each page (there is only 2)
  
- >  
-
-  
+ 
 Notes: 
 
 > Currently using Netlify to handle backend processes and deployment for simplicity

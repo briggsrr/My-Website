@@ -44,14 +44,11 @@ const ExperienceSection = () => {
                 <RowBottom> 
                   <RoleTasks>
                   <Colored>&#8226;</Colored> 
-                  Fill in later, once internship temrinates. NULL NULL NULL  
-                      NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  
-                      NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  
+        
                     <br></br><Colored>&#8226;</Colored> 
-                    NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  
-                    NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  
+               
                     <br></br><Colored>&#8226;</Colored>
-                    NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  NULL NULL NULL  
+                    
                   </RoleTasks>
                 </RowBottom>
                </ExperienceRow>
@@ -99,7 +96,7 @@ const ExperienceSection = () => {
                     Meijun 
                 </JobTitle>
                 <RoleTitle>
-                    Software Developer Intern 
+                    Software Engineering Intern 
                   </RoleTitle>
                 <RoleTime>
                     06/18 - 08/18
@@ -119,7 +116,7 @@ const ExperienceSection = () => {
                     </Point>
                     <Point>
                     <br></br><Colored>&#8226; </Colored>
-                    Shadowed software engineers professionals to learn industry approaches.
+                    Shadowed software engineering professionals to learn industry approaches.
                     </Point>
 
                   </RoleTasks>
