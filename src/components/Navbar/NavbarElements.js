@@ -23,12 +23,17 @@ export const Nav = styled.nav`
 
 export const NavbarContainer = styled.div`
     display: flex;
+    //justify-content: center;
     justify-content: space-between;
     height: 80px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
+    padding: 0 50px;
     max-width: 1100px;
+   
+    //margin: 5 auto; 
+    //border: 1px solid #fff;
+    
     
 `;
 
@@ -112,3 +117,20 @@ export const NavLinks = styled(LinkS)`
     }
  
  `;
+
+export const LeftIcon = styled.img`
+    width: 5%;
+    
+    height: 50%;
+    border-radius: 10px;
+   
+    border: 1px solid #64ffda; 
+    opacity: 85%;
+    
+    
+
+
+ 
+
+
+`;

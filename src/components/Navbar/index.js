@@ -8,7 +8,8 @@ import { Nav,
   NavItem,
   NavLinks,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
+  //LeftIcon
     } from './NavbarElements'
 
 import {animateScroll as scroll} from 'react-scroll';
@@ -19,10 +20,14 @@ const Navbar = ({ toggle }) => {
     <>
       <Nav scrollNav={scroll}>
         <NavbarContainer>
+       
+      
           <MobileIcon onClick={toggle}>
+          
             <FaBars/>
           </MobileIcon>
           <NavMenu>
+          
             <NavItem>
               <NavLinks to="home"
               smooth = {true} 
@@ -60,7 +65,10 @@ const Navbar = ({ toggle }) => {
           </NavMenu>
           <NavBtn>
         
-          <NavBtnLink to="/database">&#47;&#47;database</NavBtnLink>
+          <NavBtnLink to="/database">
+              {/* &#47;&#47;database  */}
+              
+            </NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
